@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:customeedittext="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <demo.hxzk.com.customviewdemo.widget.CustomeEdittext
+        android:id="@+id/editextcustomView_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        customeedittext:isShowTopMessage="true"
+        customeedittext:topMessage="账号"
+        customeedittext:bottomMessage="请输入账号"
+        >
+    </demo.hxzk.com.customviewdemo.widget.CustomeEdittext>
+
+
+    <demo.hxzk.com.customviewdemo.widget.CustomeEdittext
+        android:id="@+id/editextcustomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        customeedittext:isShowTopMessage="true"
+        customeedittext:topMessage="密码"
+        customeedittext:bottomMessage="请输入密码"
+        >
+    </demo.hxzk.com.customviewdemo.widget.CustomeEdittext>
+
+
+
+    <Button
+        android:id="@+id/btn_getdata"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="获取输入内容"/>
+
+</LinearLayout>
